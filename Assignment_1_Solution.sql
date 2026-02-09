@@ -33,6 +33,7 @@ create table tags(
 	FOREIGN Key(movieid) references movies(movieid),
 	FOREIGN Key(tagid) references taginfo(tagid)
 );
+
 create table hasagenre(
 	movieid int,
 	genreid int,
